@@ -10,6 +10,7 @@
     "aside main main"
     "footer footer footer";
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
 }
  
  
@@ -19,6 +20,7 @@
     height: 12vh;
     display: flex;
     align-items: start;
+    background: #ccc;
 
 }
  h1{
@@ -45,16 +47,62 @@ h6{
 .barra{
     grid-area: aside;
     width: 30vw;
-    background: red;
     height: 80vh;
+    margin: 2px;
+    padding: 5px;
+    background: rgb(81, 198, 233);
+    color: #fff;
+    border: 2px solid #000;
+    line-height: 20px;
+
  
     z-index: 1;
+}
+.end p{
+    font-size: 0.8em;
+}
+.end a{
+    text-decoration: none;
+    color:#252525;
+    font-size: 0.7em;
+}
+.contato{
+   font-size: 1em;
+
+}
+.contato a{
+  text-decoration: none;
+   color:#fff;;
+  margin-left: 5px;
+
+}
+.fa-phone{
+    font-size: 1.5em;
+    color:#fff;
+    padding-left: 2px;
+}
+.fa-mobile{
+    font-size: 2em;
+    color:#fff;
+}
+.formacao{
+    margin-top: 10px;
+  line-height: 20px;
+}
+.sofft-skill{
+    margin-top: 10px;
+    line-height: 20px;
+
 }
 .experiencia{
     grid-area: main;
     width: 70vw;
-    background: green;
     height: 80vh;
+    margin-top: 2px;
+}
+.exp{
+    border: 3px solid #252525;
+    height: 100%;
 }
 .social-midia{
     grid-area: footer;
