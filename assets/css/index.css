@@ -103,10 +103,31 @@ h6{
 .exp{
     border: 3px solid #252525;
     height: 100%;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.exp p{
+    line-height: 20px;
+    margin: 4px;
+    padding: 10px;
+}
+.exp h3{
+    padding: 2px;
 }
 .social-midia{
     grid-area: footer;
     background: #ccc;
     height: 12vh;
+    display: grid;
+       
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
     
+}
+.icon{
+    margin-top: 10%;
 }
